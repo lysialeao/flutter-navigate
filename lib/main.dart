@@ -7,7 +7,7 @@ class SegundaRota extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Segunda Rota tela'),
+        title: Text('Cadastro'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -23,7 +23,7 @@ class SegundaRota extends StatelessWidget {
           ],
         ),
       ),
-      
+
 
 
 
