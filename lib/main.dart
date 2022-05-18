@@ -9,14 +9,36 @@ class SegundaRota extends StatelessWidget {
       appBar: AppBar(
         title: Text('Segunda Rota tela'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: (){
-            Navigator.pop(context);
-          },
-          child: Text('Retornar!'),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: <Widget>[
+            TextField(),
+            TextField(),
+            TextField(),
+            RaisedButton(
+              child: Text('Cadastrar'),
+              onPressed: () {},
+            )
+          ],
         ),
       ),
+      
+
+
+
+      //body: Center(
+        //child: ElevatedButton(
+          //onPressed: (){
+            //Navigator.pop(context);
+          //},
+          //child: Text('Retornar!'),
+        //),
+
+      //),
+
+
+
     );
   }
 }
